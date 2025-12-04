@@ -1,0 +1,12 @@
+Problem 1 Advent of code:
+
+Starts at 50
+L5 == Left 5 clicks
+R30 == Right 30 clicks
+Throughout the entire sequence count number of zeros.
+
+Convert the input text into a array of strings
+Initalize Current at 50 as it is in the middle (0-99)
+If first rune == r, add. rune == l, subtract
+Normalize the numbering, modulo??
+Count and return the total times the sum == 0.
