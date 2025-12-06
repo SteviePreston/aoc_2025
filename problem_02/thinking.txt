@@ -1,0 +1,9 @@
+Problem 2: Invalid Id's
+
+It is a CSV input, i.e numerous number ranges (int only)
+check if it is numerically valid (ie. Start < End)
+Naive approach: Nested for loops and check for the following:
+Rules:
+    - sequence of repeated characters (56, 6969 are invalid), Split in half and then compare h1 == h2.
+    - numbers with leading zeros are invalid (0101, 0420)
+Return the TOTAL count of invalid ID's in the array of number sequences.
